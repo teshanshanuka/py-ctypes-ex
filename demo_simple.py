@@ -24,7 +24,7 @@ def list2c_arr(l: list, typ):
     return seq(*l)
 
 if __name__ == '__main__':
-    lib = load_simple_c("build/libsimple_demo.so")
+    lib = load_simple_c("build/libc_demo.so")
 
     lib.print_something()
     print(lib.mult(10, 20))
